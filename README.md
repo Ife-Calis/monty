@@ -49,12 +49,8 @@ At the end of this project, you are expected to be able to [explain to anyone](.
 ### Data structures
  Please use the following data structures for this project. Don’t forget to include them in your header file.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 ## Compilation & Output
 * Your code will be compiled this way:
-----------------------------------------------------------------------------------------------------------------------------------------------------
 $ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
 
 * Any output must be printed on `stdout`
@@ -122,4 +118,4 @@ julien@ubuntu:~/monty$
 
 
 
-## AUTHOR :|Ifechukwu Anyika|
+## AUTHOR : |Ifechukwu Anyika|
