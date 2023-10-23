@@ -51,7 +51,11 @@ At the end of this project, you are expected to be able to [explain to anyone](.
 
 ## Compilation & Output
 * Your code will be compiled this way:
+
+```
 $ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
+
+```
 
 * Any output must be printed on `stdout`
 * Any error message must be printed on `stderr`
@@ -117,7 +121,7 @@ pall This is the end of our program. Monty is awesome!$
 * If you can’t malloc anymore, print the error message `Error: malloc failed`, followed by a new line, and exit with status `EXIT_FAILURE`.
 * You have to use `malloc` and `free` and are not allowed to use any other function from `man malloc` (realloc, calloc, …)
 
-Available operation codes:
+#### Available operation codes:
 
 | Opcode | Description |
 |------------------- | --------------|
